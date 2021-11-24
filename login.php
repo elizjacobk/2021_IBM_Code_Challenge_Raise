@@ -10,7 +10,7 @@ session_start();?>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="images/navlogo.png">
-        <title>Rafiki.</title>
+        <title>Raise</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
