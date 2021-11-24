@@ -248,3 +248,134 @@ a{
 .package-slider .product-grid2 .title a{color:#ffffff}
 .package-slider .product-grid2 .title a:hover{color:#000}
 .package-slider .product-grid2 .price{color:#ffffff}
+
+/*=================footer=============*/
+.footer-top p{
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.footer-top h3{
+    color: #ffffff;
+}
+
+.footer-top h2{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-top{
+    background-color: #000;
+    padding: 0 0;
+    padding-bottom: 10px;
+}
+
+
+.footer-top .segment-two h3{
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.footer-top .segment-three h2:before,
+.footer-top .segment-four h2:before{
+    content: '|';
+    font-weight: 400;
+    color: #eed80f;
+    padding-right: 10px;
+}
+
+.footer-top .segment-three ul{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-top .segment-three li{
+    border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+    line-height: 30px;
+    color: rgba(225, 225, 225, 0.3);
+}
+
+.footer-top .segment-three li a:link,
+.footer-top .segment-three li a:visited{
+    color: rgba(225, 225, 225, 0.3);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-top .segment-three li a:hover,
+.footer-top .segment-three li a:active{
+    color: #eed80f;
+}
+
+.footer-top .segment-four a:link,
+.footer-top .segment-four a:visited{
+    padding-right: 20px;
+    font-size: 20px;
+    color: rgba(225, 225, 225, 0.3);
+    text-decoration: none;
+}
+
+.footer-top .segment-four a:hover,
+.footer-top .segment-four a:active{
+    color: #eed80f;
+}
+
+.footer-logo{
+    height:150px;
+    width: auto;
+}
+/*============navbar==================*/
+
+.bg-dark {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+.bg-dark.scrolled {
+    background:#000 !important;
+}
+
+.nav-logo{
+    height: 36px;
+    width: auto;
+}
+
+.dropdown{
+    margin-right: 10px;
+}
+
+.nav-search.navbar-nav{
+    font-size: 1rem;
+}
+
+.nav-search .form-control{
+    font-size: 1rem;
+    height: 36px;
+}
+
+.nav-search .btn{
+    height: 36px;
+    background-color: transparent;
+    border-color: #eed80f;
+    color: #eed80f;
+}
+
+.nav-search .btn:hover,
+.nav-search .btn:active{
+    height: 36px;
+    background-color: #eed80f;
+    border-color: #eed80f;
+    color: #fff;
+}
+
+.nav-el:link,
+.nav-el:visited{
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-el:active,
+.nav-el:hover{
+    border-bottom: 2px solid #eed80f;
+}
