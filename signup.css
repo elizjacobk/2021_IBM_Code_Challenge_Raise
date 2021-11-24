@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #FAE5D3;
+}
+
+.background{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text{
+    margin-top: 45vh;
+    flex: 1;
+}
+
+.box{
+    margin-top: 33vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+body,html,main{
+    height:100%;
+}
+.background{
+    background-image: url(bgsign.jpg);
+    height:100%;background-position: center;background-size: cover;position: relative;
+}
+
+.text h1{
+    position: absolute;
+    top:15%;left: 25%;
+    transform: translate(-100%,-55%);
+   /*-- text-align: justify;*/
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.text p{
+    position: absolute;
+    top:22%;left: 24%;
+    transform: translate(-100%,-55%);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.username, .password, .fullname, .email{
+    border-bottom: 1px solid #fff;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}
+
+/*============navbar==================*/
+
+.bg-dark {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+.bg-dark.scrolled {
+    background:#015149 !important;
+}
+
+.nav-logo{
+    height: 36px;
+    width: auto;
+}
+
+.dropdown{
+    margin-right: 10px;
+}
+
+.nav-search.navbar-nav{
+    font-size: 1rem;
+}
+
+.nav-search .form-control{
+    font-size: 1rem;
+    height: 36px;
+}
+
+.nav-search .btn{
+    height: 36px;
+}
+
+.nav-el:link,
+.nav-el:visited{
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-el:active,
+.nav-el:hover{
+    border-bottom: 2px solid #20fc8f;
+}
