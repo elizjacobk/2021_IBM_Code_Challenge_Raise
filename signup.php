@@ -15,6 +15,7 @@ $password = "";
       $email;
       $fullname;
       $errors = array(); 
+      $userid=uniqid()
 
       if (isset($_POST['Signup'])){
             //accepting
@@ -31,7 +32,7 @@ $password = "";
 
             //connection
             if (count($errors) == 0) {
-                    $sql="INSERT INTO user(fullname,email,username,password) VALUES($fullname,$email,$username,$password)";
+                    $sql="INSERT INTO user(userid,fullname,email,username,password) VALUES($userid,$fullname,$email,$username,$password)";
                 //   $query="SELECT * FROM customer where email='$loguser' AND Password='$logpass';";
                 //   $results = mysqli_query($db, $sql);
                   if(mysqli_query($db,$sql)){
