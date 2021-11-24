@@ -15,10 +15,10 @@ $password = "";
       $imagefileurl;
         $mess="";
       $errors = array(); 
-      $postid=uniqid()
+      $postid;
     $tempname;
       if (isset($_POST['upload'])){
-
+            $postid=uniqid()
           $imagefileurl=$_FILES["uploadimage"]["name"];
           $imagefileurl=$filename.uniqid();
           $folder="post-image/".$imagefileurl;
