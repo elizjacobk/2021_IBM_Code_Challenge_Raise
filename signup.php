@@ -38,7 +38,7 @@ $password = "";
                   if(mysqli_query($db,$sql)){
                       echo "New record created "
                       $_SESSION['username'] = $username;
-                      $_SESSION['success'] = "You are now logged in";
+                      // $_SESSION['success'] = "You are now logged in";
                       header('location: index.html');
                   }
                   else{
