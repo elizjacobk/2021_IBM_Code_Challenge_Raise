@@ -19,7 +19,8 @@ Healthcare Assistant: (AI Chatbot)
 The IBM Watson chatbot was used to create the chatbot, by including the symptoms as intents and from that dialogues were provided as the treatment.
 
 ## Links
-[Presentation slides](https://github.com/elizjacobk/2021_IBM_Code_Challenge_Raise/blob/main/Expecto-final%20ppt.pdf)
+[Presentation slides](https://github.com/elizjacobk/2021_IBM_Code_Challenge_Raise/blob/main/Expecto-final%20ppt.pdf) <br>
+[Demo video](https://drive.google.com/file/d/1hTtXxibAQnT8tY56iJZWyVwqa4xOP9oA/view?usp=sharing)
 
 ## Contributors
 Amalu Susan Basil
