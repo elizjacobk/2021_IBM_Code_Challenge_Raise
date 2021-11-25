@@ -1,0 +1,26 @@
+/*---login---*/
+
+.logback{
+    height: 100%;
+    background-image: url("../images/bgsign.jpg"); /* The image used */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.bt-suc{
+    background-color: #eed80f;
+    color: #000;
+    border-color: #eed80f;
+}
+
+.bt-suc:hover{
+    background-color: #cab91d;
+    border-color: #c2b00e;
+}
+
+.bb{
+    padding-top: 55%;
+}
