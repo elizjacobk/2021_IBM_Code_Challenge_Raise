@@ -1,0 +1,96 @@
+body{
+    background-image: url("../images/rainbow.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    
+    }
+    
+    .form-rows {
+        position: static;
+        display: block;
+      }
+    
+      .master{
+        margin: auto;
+        width: 800px;
+        background-color: #d9f2f6;
+        border-radius: 50px;
+        padding: 20px 10px 10px 10px;
+      }
+      .labels {
+        display: inline-block;
+        text-align: right;
+        width: 40%;
+        padding: 5px;
+        vertical-align: top;
+        margin-top: 10px;
+      }
+      .fields {
+        display: inline-block;
+        text-align: left;
+        width: 48%;
+        vertical-align: middle;
+      }
+      .input-field {
+        height: 40px;
+        width: 280px;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid #c0c0c0;
+        border-radius: 4px;
+      }
+      .radio {
+        position: relative;
+        left: -43px;
+        margin-left: 10px;
+        display: block;
+        padding-bottom: 10px;
+      }
+      .dropdown {
+        height: 35px;
+        width: 140px;
+        padding: 5px;
+        margin: 15px 10px 10px 10px;
+        border: 1px solid #c0c0c0;
+        border-radius: 4px;
+      }
+     
+      .user-selection {
+        float: left;
+        margin-right: 5px;
+      }
+    
+      .button {
+        font-size: 1em;
+        background-color: #6ba2ce;
+        color: white;
+        border: 0px solid;
+        border-radius: 4px;
+        height: 40px;
+        width: 80px;
+        margin: 10px;
+      }
+     
+    .topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    h1{
+       
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .tt{
+        margin-left: 10%;
+    }
