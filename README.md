@@ -8,7 +8,7 @@ The application will primarily be used by members of the LGBTQ+ community--hence
 Their usecase includes researchig and enquiring about their physical health using our healthcare assistant. They can also avail remote group therapy and individal discussions vis the chatbot. The blogging feature can be used to talk about their problems and hurdles and to take inspiration from like minded people. And finally, the job posting system can be used to avail jobs and employees towards inclusive companies and other jobs.
 
 ## Architecture:
-######Technical Architecture:
+###### Technical Architecture:
 Front-end:
 HTML and CSS was used to create the entire UI, including the landing page, add blog and blog feed pages.
 Back-end: 
@@ -30,7 +30,7 @@ Maria Thomson
 Meera Susan Cherian
 Salvin Antony Varghese
 
-######Acknowledgements:
+###### Acknowledgements:
 
 IBM Watson
 Stack Overflow
