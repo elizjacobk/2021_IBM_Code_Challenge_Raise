@@ -10,43 +10,26 @@
     <title>Raise.</title>
   </head>
   <body>
-    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="nav-img" href="#navbar"></a>
-      <a class="navbar-brand" href="#"><img class="nav-logo" src="images/navlogo.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.php"><img class="nav-logo" src="images/navlogo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="nav-search form-inline my-2 my-lg-0 ml-auto">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0 ty" type="submit">Search</button>
-        </form>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-el nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+            <a class="nav-el nav-link" href="blog.php">Blog<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-el nav-link" href="#">Account</a>
+            <a class="nav-el nav-link" href="login.php">Account</a>
           </li>
           <li class="nav-item">
-            <a class="nav-el nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-el nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Let's talk
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Chat</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Health Assitant</a>
-            </div>
+            <a class="nav-el nav-link" href="profile.php">Profile</a>
           </li>
         </ul>
       </div>
     </nav> 
-
-    
       <header>
         <div id="hero" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -68,7 +51,6 @@
                             </p><br></b>
                     </div>
                 </div>
-              
                 <div class="carousel-item ">
                   <img class=" d-block w-100 cimg " src="images/landing3.jpg">
                     <div class="carousel-caption">
@@ -80,12 +62,6 @@
                 </div>
                 <div class="carousel-item">
                   <img class=" d-block w-100 cimg " src="images/landing4.jpg">
-                    <div class="carousel-caption">
-                            <h1 class="font-weight-bold">Ra<span class="i">i</span>se.</h1>
-                            <b><p class="slogan">
-                              Rainbows Reign.
-                            </p><br></b>
-                    </div>
                 </div>
             </div>
         </div>
@@ -157,16 +133,9 @@
                 <div class="product-grid2">
                     <div class="product-image2">
                         <a href="#">
-                            <img class="pic-1" src="images/6.jpeg">
-                            <img class="pic-2" src="images/6.jpeg">
+                            <img class="pic-1" src="images/4.jpeg">
+                            <img class="pic-2" src="images/4.jpeg">
                         </a>
-                        <ul class="social">
-                            <li><a href="#">
-                              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </a></li>
-                        </ul>
                         <a class="add-to-cart" href="">Open Blog</a>
                     </div>
                     <div class="product-content">
@@ -179,21 +148,14 @@
               <div class="product-grid2">
                   <div class="product-image2">
                       <a href="#">
-                          <img class="pic-1" src="images/6.jpeg">
-                          <img class="pic-2" src="images/6.jpeg">
+                          <img class="pic-1" src="images/2.jpeg">
+                          <img class="pic-2" src="images/2.jpeg">
                       </a>
-                      <ul class="social">
-                          <li><a href="#">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                            </svg>
-                          </a></li>
-                      </ul>
                       <a class="add-to-cart" href="">Open Blog</a>
                   </div>
                   <div class="product-content">
-                      <h3 class="title"><a href="#">The fab femme</a></h3>
-                      <span class="price">Coming out as non-binary was spiritual for me. I meditate everyday, and one day during a meditation, I had this image of myself walking into a family event and feeling my family perceive me as non-binary - as not being adhered to any gender.  I started crying because I felt so freed <u>Cont..</u></span>
+                      <h3 class="title"><a href="#">Innapropriate Curiosity</a></h3>
+                      <span class="price">Encountering inappropriate curiosity is a common experience among people who identify as LGBT. This kind of behaviour shouldn’t happen in a healthcare facility, yet recent reports from Stonewall and the government’s Equalities Office confirm that this is a problem in healthcare and that it particularly affects people who are transgender. <u>Cont..</u></span>
                   </div>
               </div>
           </div>
@@ -201,49 +163,34 @@
             <div class="product-grid2">
                 <div class="product-image2">
                     <a href="#">
-                        <img class="pic-1" src="images/6.jpeg">
-                        <img class="pic-2" src="images/6.jpeg">
+                        <img class="pic-1" src="images/6.jpg">
+                        <img class="pic-2" src="images/6.jpg">
                     </a>
-                    <ul class="social">
-                        <li><a href="#">
-                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                          </svg>
-                        </a></li>
-                    </ul>
                     <a class="add-to-cart" href="">Open Blog</a>
                 </div>
                 <div class="product-content">
-                    <h3 class="title"><a href="#">The fab femme</a></h3>
-                    <span class="price">Coming out as non-binary was spiritual for me. I meditate everyday, and one day during a meditation, I had this image of myself walking into a family event and feeling my family perceive me as non-binary - as not being adhered to any gender.  I started crying because I felt so freed <u>Cont..</u></span>
+                    <h3 class="title"><a href="#">Community Uplifting</a></h3>
+                    <span class="price">In the hopes of humanizing our community to the general public, I’ve made it my career to help bridge that percentage gap and help society better understand transgender individuals.<u>Cont..</u></span>
                 </div>
             </div>
         </div><div class="col span-1-of-4">
           <div class="product-grid2">
               <div class="product-image2">
                   <a href="#">
-                      <img class="pic-1" src="images/6.jpeg">
-                      <img class="pic-2" src="images/6.jpeg">
+                      <img class="pic-1" src="images/3.jpg">
+                      <img class="pic-2" src="images/3.jpg">
                   </a>
-                  <ul class="social">
-                      <li><a href="#">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                        </svg>
-                      </a></li>
-                  </ul>
                   <a class="add-to-cart" href="">Open Blog</a>
               </div>
               <div class="product-content">
-                  <h3 class="title"><a href="#">The fab femme</a></h3>
-                  <span class="price">Coming out as non-binary was spiritual for me. I meditate everyday, and one day during a meditation, I had this image of myself walking into a family event and feeling my family perceive me as non-binary - as not being adhered to any gender.  I started crying because I felt so freed <u>Cont..</u></span>
+                  <h3 class="title"><a href="#">Miss Trans Global</a></h3>
+                  <span class="price">Miss Trans Global is an annual international pageant for transgender activist queens from different countries around the world. It claims to be the biggest international digital competition for transgender women which broadcast live on multiple social networking websites from London, United Kingdom. <u>Cont..</u></span>
               </div>
           </div>
       </div>
         </div>
     </section>
-      
-      <footer>
+    <footer>
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -262,37 +209,25 @@
                 <li><a href="#">Profile</a></li>
               </ul>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
-                <h2>Follow us</h2>
-                <a href="#">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                  </svg>
-                </a>
-              </div>
           </div>
         </div>
       </div>
     </footer>
       
-<script>
+      
+      
+      
+      
+      
+      
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script>
     $(window).scroll(function(){
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 25);
     });
    </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-      </body>
+  </body>
 </html>
